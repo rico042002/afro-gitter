@@ -1,0 +1,62 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 98.8%;
+    background-color: #414141;
+    text-decoration: none; 
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar a {
+    color: #EEEEEE;
+    text-decoration: none;
+
+}
+
+
+.banner {
+    background-color: #A10001;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#small-afro {
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.afro-section {
+    padding: 20px 50px;
+}
+
+#afro {
+    color:#A10001;
+    font-size: 100px;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    color: #A10001;
+}
+
+#greets ul {
+    list-style-type: none;
+}
+
+.avatar {
+    background-image: url(./afro.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+    display: inline-block;
+    vertical-align: middle;
+}
